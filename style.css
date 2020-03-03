@@ -1,23 +1,4 @@
 
-@media (max-width:500px) {
-    body {
-        background-color: lightgoldenrodyellow;
-    }
-
-
-    h1 {
-        font-size: 12px;
-    }
-    h2 {
-        font-size: 50px;
-    }
-    iframe {
-        width: 100%;
-    }
-}
-
-
-
 /* I made the body of my content narrower so it wouldn't fill the whole screen. I've been reading about margin: auto vs. other tools. I've kept margin-left and right to play around with. */
 
 body{
@@ -126,4 +107,22 @@ ol li{
 td, th {
     border: 2px dotted #999;
     padding: 1rem;
+}
+
+
+
+
+@media (max-width:500px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    iframe {
+        width: 100%;
+    }
 }
