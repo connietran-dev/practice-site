@@ -5,13 +5,9 @@ body{
     font-family:'Raleway',Arial, Helvetica, sans-serif;
     max-width: 900px;
     margin: 0px auto;
-    /* margin-left: 50px;
-    margin-right: 50px; */
     padding: 40px;
 
-    /* Why when I uncomment the background-color, it doesn't turn yellow <500px? */
-
-    /* background-color: lightgrey; */
+    background-color: rgb(247, 244, 244);
 
     /* background: url('https://i.imgur.com/RXRU1pL.jpg');
     background-size: cover;
@@ -72,7 +68,7 @@ img.center {
 }
 
 .profilePic {
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 50%;
 }
 
@@ -93,7 +89,6 @@ img.center {
 
 /* Lists */
 
-
 ul li {
     margin-bottom: 8px;
 }
@@ -111,10 +106,26 @@ td, th {
 
 
 
+@media (max-width:800px) {
+    body {
+        /* background-color: rgb(198, 190, 190); */
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+
 
 @media (max-width:500px) {
     body {
-        background-color: lightgoldenrodyellow;
+        /* background-color: rgb(174, 171, 171); */
+        /* color: white; */
     }
     h1 {
         font-size: 45px;
