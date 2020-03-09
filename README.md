@@ -2,7 +2,7 @@
 
 This is a little 'About Me' site for UI practice from week 1 of class activities.
 
-You can view the live site on GitHub Pages here: https://connietran-dev.github.io/practice-site/
+**You can view the live site on GitHub Pages here: https://connietran-dev.github.io/practice-site/**
 
 Here are some of the things I had fun playing around with:
 
